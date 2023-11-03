@@ -1,3 +1,10 @@
+# Landing Page sobre a série do Chucky.
+
+
+
+## Tecnologias usadas:
+
+
 
 
 <details>
