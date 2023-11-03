@@ -8,7 +8,9 @@
 *Preocupação com a acessibilidade web:*
 
 - Usei somente um único <h1>;
+
 - Testei meu front-end com o leitor de tela NVDA;
+
 - Tive um cuidado com os textos alternativos.
 
 
