@@ -1,0 +1,102 @@
+ /* Estilos para telas pequenas (dispositivos móveis) */
+ @media (max-width: 767px) {
+
+     header {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     main {
+         display: flex;
+         flex-direction: column-reverse;
+         justify-content: center;
+         align-items: center;
+         padding: 15px;
+         margin: 0 auto;
+     }
+
+     .phase{
+        text-align: center;
+     }
+
+     .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     h1 {
+         font-size: 37px;
+         text-align: center;
+
+     }
+
+     main p {
+         text-align: center;
+     }
+
+     #season {
+         text-align: center;
+     }
+
+
+
+     #descricao {
+         font-size: 14px;
+     }
+
+     .imagem {
+         display: none;
+     }
+ }
+
+ /* Estilos para telas médias (tablets) */
+ @media (min-width: 768px) and (max-width: 1023px) {
+
+     header {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+
+     #season {
+         text-align: center;
+     }
+
+     main {
+         display: flex;
+         flex-direction: column-reverse;
+         justify-content: center;
+         padding: 0;
+         align-items: center;
+         margin: 0 auto;
+     }
+
+     .phase{
+        text-align: center;
+     }
+
+
+     .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     h1 {
+         font-size: 37px;
+     }
+
+     .imagem {
+         display: none;
+     }
+
+     main p {
+         text-align: center;
+     }
+
+     #descricao {
+         font-size: 16px;
+     }
+ }
