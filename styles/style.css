@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-header nav ul{
-text-decoration: none;
-list-style: none;
-display: flex;
-flex-direction: row;
-gap:35px;
-padding:25px;
-color: #fff;
+header nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 25px;
+    color: #fff;
 }
 
-header{
-    background-color:#040404;
-    height:70px;
+header {
+    background-color: #040404;
+    height: 70px;
 }
 
-nav li{
-    color:#fff;
+nav li {
+    color: #fff;
     transition: .20s;
 }
 
-header nav li:hover{
-color:#e02b2b;
+header nav li:hover {
+    color: #e02b2b;
 }
 
 
 #descricao {
-    
+
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 10; /* Define o número de linhas que deseja exibir */
+    -webkit-line-clamp: 10;
+    /* Define o número de linhas que deseja exibir */
     -webkit-box-orient: vertical;
 }
 
@@ -63,63 +64,64 @@ color:#e02b2b;
 }
 
 
-main{
-padding:50px;
-display: flex;
-flex-direction: row;
-justify-content:space-evenly;
-background-image: url('');
-max-width: 1440px;
-height: calc(100vh - 132px);
-}
-
-.content{
+main {
+    padding: 50px;
     display: flex;
-    gap:10px;
-    flex-direction: column;
-    color:#fff;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('');
+    max-width: 1440px;
+    height: calc(100vh - 132px);
 }
 
-.content h1{
+.content {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    color: #fff;
+}
+
+.content h1 {
     font-size: 60px;
 }
 
-.content h3{
+.content h3 {
     font-size: 30px;
     font-weight: 400;
-    color:#e02b2b;
+    color: #e02b2b;
 }
 
-.content p{
-    max-width:420px;
+.content p {
+    max-width: 420px;
     text-align: justify;
-    font-size:19px;
+    font-size: 19px;
 }
 
-.imagem{
-    width:390px;
-    height:450px;
+.imagem {
+    width: 390px;
+    height: 450px;
 }
 
-.buttons{
+.buttons {
     display: flex;
-    gap:25px;
+    gap: 25px;
 }
 
 
-button{
-    padding:7px;
-    width:95px;
-    height:38px;
+button {
+    padding: 7px;
+    width: 95px;
+    height: 38px;
     text-align: center;
     font-weight: 500;
     background-color: #EB4A4A;
-    color:#fff;
+    color: #fff;
     border: none;
-    transition:.20s;
+    transition: .20s;
 }
 
-.next:hover, .next:hover > span {
+.next:hover,
+.next:hover>span {
     margin-left: 20px;
 }
 
